@@ -143,13 +143,18 @@ ul {
   position: relative;
 }
 .header .container .logo {
-  color: var(--main-color);
-  font-size: 26px;
-  font-weight: bold;
+  /* color: var(--main-color); */
+  /* font-size: 26px; */
+  /* font-weight: bold; */
   height: var(--main-height);
+  width: 73.6px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.header .container .logo img {
+  height: 60px;
+  width: 60px;
 }
 @media (max-width: 767px) {
   .header .container .logo {
