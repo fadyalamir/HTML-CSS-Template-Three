@@ -558,6 +558,9 @@ ul {
 .features .time a {
   color: #009688;
   border-color: #009688;
+  background: linear-gradient(to right, #009688 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
 }
 .features .passion .img-holder::before {
   background-color: rgb(3 169 244 / 60%);
@@ -568,6 +571,9 @@ ul {
 .features .passion a {
   color: #03a9f4;
   border-color: #03a9f4;
+  background: linear-gradient(to right, #03a9f4 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
 }
 .features .box:hover a {
   background-position: left bottom;
